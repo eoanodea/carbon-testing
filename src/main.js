@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
-import 'carbon-components/css/carbon-components.css';
+
+import './scss/app.scss'
+
 import CarbonComponentsVue from '@carbon/vue/src/index';
 
 Vue.config.productionTip = false
 
 Vue.use(CarbonComponentsVue);
-
-import './scss/app.scss'
 
 new Vue({
   render: h => h(App),

@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@carbon/themes": "^10.10.1",
     "@carbon/vue": "^2.23.1",
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
